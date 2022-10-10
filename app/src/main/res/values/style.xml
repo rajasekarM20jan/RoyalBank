@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="mainText">
+        <item name="android:text">ROYAL BANK</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/nosifer</item>
+    </style>
+    <style name="linearText">
+        <item name="android:text">Enter Credentials for Login</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/new_rocker</item>
+    </style>
+    <style name="EditTextForDebitCard">
+        <item name="android:hint">Enter Your Debit Card Number</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#685A5A</item>
+        <item name="android:background">#70ffffff</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawableLeft">@drawable/card</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="EditTextForPin">
+        <item name="android:hint">Enter Your 4 Digit Pin</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">#685A5A</item>
+        <item name="android:background">#70ffffff</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawableLeft">@drawable/pin</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+    <style name="mainButton">
+        <item name="android:text">Login</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="newUser">
+    <item name="android:text">New User? Sign Up here.</item>
+    <item name="android:textAlignment">center</item>
+    <item name="android:layout_gravity">center</item>
+    <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
